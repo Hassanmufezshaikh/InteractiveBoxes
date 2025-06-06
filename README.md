@@ -19,8 +19,8 @@ This project features an interactive "Bundle & Save" product selection interface
 
 ## 🚀 Technologies Used
 
-* **HTML5:** For the fundamental structure of the web page.
-* **CSS3:**
+* **HTML:** For the fundamental structure of the web page.
+* **CSS:**
     * **CSS Variables (`:root`):** For easy theme management and consistent styling.
     * **Flexbox:** For efficient and responsive layout design, especially for aligning items in rows.
     * **Media Queries:** To ensure the layout adapts beautifully to different screen sizes.
@@ -34,11 +34,8 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
-    cd <repository_name>
+    git clone <https://github.com/Hassanmufezshaikh/InteractiveBoxes.git>
     ```
-    *(Replace `<repository_url>` and `<repository_name>` with your actual repository details if you push this to GitHub/GitLab)*
-
 2.  **Open in Browser:**
     Simply open the `index.html` file in your preferred web browser. All necessary CSS and JavaScript files are linked locally.
 
