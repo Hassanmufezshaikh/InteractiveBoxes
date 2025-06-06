@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InteractiveBoxes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+
+<body>
+    <div class="bundle-section">
+        <h2 class="section-title">Interactive Boxes</h2>
+        <div class="bundle-option" id="option1">
+            <label class="option-header">
+                <input type="radio" name="bundle" value="1pair">
+                <div class="option-details">
+                    <span class="quantity">1 Pair</span>
+                    <span class="price">DKK 195.00</span>
+                </div>
+                <div class="discount">50% OFF</div>
+            </label>
+            <div class="option-content"></div>
+        </div>
+
+        <div class="bundle-option selected" id="option2">
+            <label class="option-header">
+                <input type="radio" name="bundle" value="2pair" checked>
+                <div class="option-details">
+                    <span class="quantity">2 Pair</span>
+                    <span class="current-price">DKK 345.00</span>
+                    <span class="original-price">DKK 195.00</span>
+                </div>
+                <div class="discount">40% OFF</div>
+                <span class="most-popular">Most Popular</span>
+            </label>
+            <div class="option-content expanded">
+                <div class="item-selection">
+                    <div class="item-row">
+                        <span class="item-number">#1</span>
+                        <select class="size-select" aria-label="Select size for item 1">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <select class="color-select" aria-label="Select color for item 1">
+                            <option value="">colour</option>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Grey">Grey</option>
+                        </select>
+                    </div>
+                    <div class="item-row">
+                        <span class="item-number">#2</span>
+                        <select class="size-select" aria-label="Select size for item 2">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <select class="color-select" aria-label="Select color for item 2">
+                            <option value="">colour</option>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Grey">Grey</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bundle-option" id="option3">
+            <label class="option-header">
+                <input type="radio" name="bundle" value="3pair">
+                <div class="option-details">
+                    <span class="quantity">3 Pair</span>
+                    <span class="price">DKK 528.00</span>
+                </div>
+                <div class="discount">60% OFF</div>
+            </label>
+            <div class="option-content"></div>
+        </div>
+        <div class="bundle-summary-row">
+            <div class="shipping-info">Free 2 Day Shipping</div>
+            <div class="total-price">Total : <span class="total-amount">DKK 360.00</span></div>
+        </div>
+
+        <button class="add-to-cart-btn">+ Add to Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
